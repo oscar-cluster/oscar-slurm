@@ -41,6 +41,7 @@
       <pkg>slurmctld</pkg>
       <pkg>slurmdbd</pkg>
       <pkg>sview</pkg>
+      <pkg>libpam-slurm</pkg>
     </requires>
   </serverDeps>
   <clientDeps>
@@ -61,7 +62,7 @@
         <dist>debian</dist>
       </filters>
       <pkg>slurm</pkg>
-      <pkg>libpam_slurm</pkg>
+      <pkg>libpam-slurm</pkg>
     </requires>
   </clientDeps>
   <apiDeps/>
