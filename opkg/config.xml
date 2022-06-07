@@ -37,7 +37,7 @@
       </filters>
       <pkg>slurm</pkg>
       <pkg>slurm-client</pkg>
-      <pkg>slurm-wml-torque</pkg>
+      <pkg>slurm-wlm-torque</pkg>
       <pkg>slurmctld</pkg>
       <pkg>slurmdbd</pkg>
       <pkg>sview</pkg>
