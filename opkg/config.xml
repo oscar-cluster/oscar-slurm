@@ -41,7 +41,6 @@
       <pkg>slurmctld</pkg>
       <pkg>slurmdbd</pkg>
       <pkg>sview</pkg>
-      <pkg>slurm-pam_slurm</pkg>
     </requires>
   </serverDeps>
   <clientDeps>
