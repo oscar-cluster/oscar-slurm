@@ -26,7 +26,6 @@
       <pkg>slurm</pkg>
       <pkg>slurm-slurmctld</pkg>
       <pkg>slurm-slurmdbd</pkg>
-      <pkg>slurm-gui</pkg>
       <pkg>slurm-torque</pkg>
       <pkg>slurm-contribs</pkg>
       <pkg>slurm-pam_slurm</pkg>
@@ -67,6 +66,11 @@
   </clientDeps>
   <apiDeps/>
   <changelog>
+    <versionEntry version="3.1-1">
+      <changelogEntry authorName="Olivier Lahaye" date="2022-09-29T11:01:43+02:00">
+        <item>Removed slurm-gui on rhel (doesn't exists anymore)</item>
+      </changelogEntry>
+    </versionEntry>
     <versionEntry version="3.0-1">
       <changelogEntry authorName="Olivier Lahaye" date="2022-06-07T09:45:22+02:00">
         <item>Updated slurm deps for rhel and set correct deps for debian</item>
