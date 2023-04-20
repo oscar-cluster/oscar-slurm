@@ -53,7 +53,7 @@
         <dist>suse</dist>
       </filters>  
       <pkg>slurm</pkg>
-      <pkg>slurmd</pkg>
+      <pkg>slurm-slurmd</pkg>
       <pkg>slurm-pam_slurm</pkg>
     </requires>
      <requires>
@@ -66,6 +66,11 @@
   </clientDeps>
   <apiDeps/>
   <changelog>
+    <versionEntry version="3.2-1">
+      <changelogEntry authorName="Olivier Lahaye" date="2023-04-20T13:24:52+02:00">
+        <item>Renamed slurmd to slurm-slurmd on rhel (new packaging since v20)</item>
+      </changelogEntry>
+    </versionEntry>
     <versionEntry version="3.1-1">
       <changelogEntry authorName="Olivier Lahaye" date="2022-09-29T11:01:43+02:00">
         <item>Removed slurm-gui on rhel (doesn't exists anymore)</item>
